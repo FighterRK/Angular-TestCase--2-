@@ -1,0 +1,80 @@
+.router{
+    text-decoration: none;
+   
+}
+
+.top-section{
+    margin: 0px 48px;
+    @include display-flex;
+
+    .title-sub {
+        @include display-flex;
+    }
+    .title-sub li{
+        @include title-sub-li;
+    }
+}
+
+.top-head{
+    margin: 10px;
+    @include display-flex;
+
+    .sub{
+        max-width: $two;
+        display: flex;
+        margin-left: 45px;
+    }
+
+    .img-set a{
+        margin: $right2
+    }
+
+
+
+    .text-set{
+
+        @include display-flex;
+        
+    }
+    .dot1{
+        @include dot1;
+        margin-top: 10px
+    }
+    .dot2{
+        @include dot2;
+    }
+    .text-set li{
+        margin: $right;
+        color: $font-color-top;
+        font-size: 14px;
+    }
+   
+
+}
+
+.translate img{
+    margin-right: 11px;
+    margin-left: 16px;
+}
+.sub-2{
+    max-width: 800px;
+}
+.btn-1{
+    padding: 10px 20px 10px 30px;
+    border-style: none;
+    background-color: rgb(36, 43, 141);
+    color: white;
+    position: relative;
+}
+.book{
+    width: 17px;
+    position: absolute;
+    right: 175px;
+    top: 21px;
+    z-index: 1;
+}
+.translate a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+
+}

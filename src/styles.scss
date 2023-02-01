@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+@import "./assets/scss/variables";
+@import "./assets/scss/mixin";
+
+
+// Page
+@import "./assets/scss/header";
+@import "./assets/scss/home";
+@import "./assets/scss/services";
+@import "./assets/scss/footer";
+@import "./assets/scss/404-page";

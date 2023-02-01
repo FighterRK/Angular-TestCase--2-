@@ -1,0 +1,218 @@
+
+
+.banner-1{
+    background-image: url('../images/aws-banner-img.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    // width: 100% !important;
+    // height: 477px;
+
+    #one{
+        max-width: 100%;
+        max-height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        backdrop-filter: blur(3px);
+
+        padding: 50px;
+        
+
+        h1{
+            font-size: 38px;
+            font-weight: 600;
+            color: white;
+            border-left: 3px solid aqua;
+            padding-left: 9px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+           
+            
+        }
+        .desc, .desc2{
+            font-size: 16px;
+            font-weight: 400;
+            color: white;
+            text-align: left;
+            margin-left: 10px;
+        }
+    }
+
+    #two{
+        width: 50%;
+        height: 350px;
+    }
+
+    .btns{
+        @include display-flex;
+        max-width: 353px;
+
+   
+
+    .btn-demo{
+        color: white;
+        background-color: #04bbf2;
+        border-style: none;
+        padding: 20px 30px 20px 20px;
+        }
+
+        p{
+            color: #04bbf2;
+        }
+
+    }
+}
+
+.banner-2{
+
+    background-color: #fbfbfb;
+    position: relative;
+
+    .offer{
+        margin-left: 30px;
+        padding: 63px;
+    }
+    
+
+    .container{
+        @include display-flex;
+        flex-direction: row;
+
+   
+
+    .card-set{
+        position: relative;
+
+        .star{
+            z-index: 1;
+            position: absolute;
+            right: 17px;
+            top: -28px;
+        }
+
+        .card{
+            background-color: rgb(255, 255, 255);
+            max-width: 400px;
+            padding: 30px;
+
+            img{
+                width: 56px;
+            }
+
+            .title-card h3{
+                color:rgb(0, 0, 109) ;
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 23px;
+
+            }
+
+                p{
+                    font-size: 14;
+                    font-weight: 300;
+                    color: rgb(77, 77, 77);
+                }
+
+                .btnrdm{
+                    max-width: 174px;
+                    border: none;
+                    background-color: #04bbf2;
+                    color: white;
+                    padding: 10px 20px;
+
+                }
+            
+        }
+
+    }
+
+}
+    
+}
+
+#banner-3{
+
+    .offer{
+        color: white;
+        padding: 41px
+    }
+
+    
+
+    background-image: url('../images/amazon-case-study-bg.jpg');
+    padding: 60px;
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+    .section{
+        @include display-flex;
+        flex-direction: row;
+        background-color:rgba(255,255,255,0.1);
+        max-width: 1205px;
+        padding: 40px;
+
+        backdrop-filter: blur(24px);
+
+    
+    .card-set2{
+        color: white;
+      
+
+        max-width: 400px;
+        padding: 30px;
+    }
+
+    }
+
+}
+
+
+.container{
+    position: relative;
+
+    .card-set{
+        position: absolute;
+        bottom: -27px;
+        z-index: 1;
+    }
+}
+
+
+#form-elements{
+    
+    input{
+        width: 262px;
+        height: 38px;
+        margin-right: 45px;
+    }
+    .req{
+        font-size: 30px;
+        font-weight: 600;
+        color: #073d70 ;
+        text-align: left;
+        margin-left: -20px;
+        padding: 16px;
+    }
+
+    .btn4{
+
+    border-style: none;
+    background-color: #073d70;
+    color: white;
+    padding: 10px 25px;
+    padding-right: 40px;
+
+    }
+
+}
+
+.content-text{
+    border-left: 1px solid rgb(143, 143, 143);
+    padding: 30px;
+    .text1{
+        font-size: 31px;
+    font-weight: 600;
+    color: #073d70 ;
+    text-align: left;
+    }
+}

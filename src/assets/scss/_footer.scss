@@ -1,0 +1,294 @@
+.footer-1{
+    padding: 38px;
+    background-color: #f5f5f5;
+
+    .f-title{
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .f-content{
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        line-height: 30px;
+        color: rgb(100, 99, 99);
+    }
+}
+
+
+// REUSED FROM LAST TASK
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(72.45deg, #23133f 9.81%, #08205c 50.72%, #01326a 93.38%);
+    color: white;
+    padding: 40px;
+    
+}
+
+.footer ul{
+    list-style: none;
+    padding: 0;
+    
+    
+   
+}
+.footer ul li{
+    margin-bottom: 10px;
+    padding-right: 30px;
+}
+.f1{
+    border-right: 1px solid rgb(160, 159, 159);
+}
+.f1 img{
+    width: 108px;
+    height: 31px;
+    margin-bottom: 15px;
+}
+.ul-set ,.ul-set2{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.footer h2{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.f1{
+    padding-right: 24px;
+}
+.f2{
+    padding-left: 38px;
+    padding-right: 38px;
+    margin-top: 80px;
+}
+.f3{
+    padding-left: 38px;
+    padding-right: 38px;
+
+}
+.f4{
+    padding-left: 38px;
+
+}
+.btm-ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+
+    
+}
+.btm-ul li{
+    margin-right: 10px;
+   
+    
+}
+
+.btm-ul .bd{
+    border-right: 1px solid rgb(160, 159, 159);
+    border-left: 1px solid rgb(160, 159, 159);
+    margin-left: 15px;
+    margin-right: 15px;
+
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.footer-bottom{
+    background-color: #150d2b;
+    color: white;
+    padding: 37px;
+}
+.social img{
+    width: 18px;
+    height: 16px;
+}
+.social a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.social{
+    display: flex;
+    
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.footer-bottom p{
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+.btm-ul li {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.footer-bar{
+    @include display-flex;
+    width: 88%;
+    height: 100px;
+    background-color: #1882fc;
+}
+
+.footer{
+    position: relative;
+    .footer-bar{
+        position: absolute;
+        top: -23px;
+        padding: 23px;
+
+        .title-nl{
+            font-size: 22px;
+            font-weight: 600;
+
+            .nes p{
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+
+        .search input{
+            width: 351px;
+            height: 40px;
+            margin-right: 64px;
+
+        }
+       
+       
+    }
+}
+
+.arrow{
+    width: 45px;
+    height: 40px;
+    background-color: #01326a;
+}
+
+.search{
+    position: relative;
+    .arrow{
+        position: absolute;
+        top: 0;
+        right: 65px;
+        
+
+        img{
+            margin-left: 10px;
+            margin-top: 7px;
+        }
+    }
+}
+
+.container{
+      
+        input,textarea{
+            margin-bottom: 20px;
+            padding-left: 10px;
+        }
+    
+}
+.name{
+    position: relative;
+
+    img{
+        position: absolute;
+        right: 251px;
+        width: 30px;
+        
+        
+    }
+}
+
+.email{
+    position: relative;
+
+    img{
+        position: absolute;
+        right: 251px;
+        top: 3px;
+        width: 24px;
+        
+        
+    }
+}
+
+.phone{
+    position: relative;
+
+    img{
+        position: absolute;
+        right: 251px;
+        top: 3px;
+        width: 24px;
+        
+        
+    }
+}
+
+.msg{
+    position: relative;
+
+    img{
+        position: absolute;
+        right: 251px;
+        top: 3px;
+        width: 24px;
+        
+        
+    }
+}
+
+.selct{
+    border: none;
+    padding: 4px 14px;
+    font-size: 8px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.article{
+    position: relative;
+
+    button{
+        position: absolute;
+        right: 251px;
+        top: 5px;
+        
+        
+        
+    }
+}
+
+.cv{
+    position: relative;
+
+    button{
+        position: absolute;
+        right: 251px;
+        top: 5px;
+        
+        
+        
+    }
+}
+
+
+.btn2{
+    position: relative;
+
+    .ar{
+        position: absolute;
+        right: 14px;
+    top: 10px;
+        
+        
+        
+    }
+}
